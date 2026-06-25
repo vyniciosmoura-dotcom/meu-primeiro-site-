@@ -1,27 +1,35 @@
-header {
-    background-color: #183C63;
+body
+ max-witd: 100w;
+    background-color: #631828;;
     color: #FFFFFF;
     text-align: center;
-    max-width: 100px;
     margin: 0 auto;
     padding: 16px;
 }
 
 main {
     background-color: #FFFFFF;
-    color: #183C63;
+    color: #182663;
     margin: 0 auto;
     padding: 16px;
+
+    display: flex;
 }
 
 article {
     display: flex;
+
+    border: #183C63;
+margin: 16px;
+gap: 16xp;
+padding: 16xp;
 }
 
 img {
     width: 80px;
     height: 80px;
 }
+
 
 .artigo-autor {
     font-weight: bold;
