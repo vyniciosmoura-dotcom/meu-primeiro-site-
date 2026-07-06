@@ -1,0 +1,16 @@
+body {
+    /* Substitui pelo link da imagem ou pelo caminho do arquivo local */
+    background-image: url('https://exemplo.com/sua-imagem-de-fundo.jpg');
+    
+    /* Garante que a imagem cobre todo o ecrã sem distorcer */
+    background-size: cover;
+    
+    /* Centra a imagem na página */
+    background-position: center;
+    
+    /* Evita que a imagem se repita como um mosaico */
+    background-repeat: no-repeat;
+    
+    /* Mantém o fundo fixo enquanto o utilizador faz scroll (opcional) */
+    background-attachment: fixed;
+}
